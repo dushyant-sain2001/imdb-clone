@@ -9,7 +9,7 @@ const MovieList = () => {
 
     useEffect(()=>{
         getData()
-    },[])
+    })
 
     useEffect(() =>{
         getData()
