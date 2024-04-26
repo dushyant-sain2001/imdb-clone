@@ -11,7 +11,7 @@ const Card = ({movie}) => {
         setTimeout(() =>{
             setisLoading(false)
         }, 1500)
-    }, [])
+    })
     return <>
     {
         isLoading
